@@ -8,7 +8,7 @@
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Mesto</title>
-    <script type="module" crossorigin src="./assets/index-CBG0n5I-.js"></script>
+    <script type="module" crossorigin src="./assets/index-DW4Zhd8n.js"></script>
     <link rel="stylesheet" crossorigin href="./assets/index-DxuldBFI.css">
   </head>
   <body class="page">
@@ -53,6 +53,8 @@
                 required
                 minlength="2"
                 maxlength="40"
+                pattern="^[A-Za-zА-Яа-яЁё -]+$"
+                data-error-message="Разрешены только латинские, кириллические буквы, пробелы и дефисы"
               />
               <span class="popup__error user-name-error"></span>
             </label>
@@ -66,6 +68,8 @@
                 required
                 minlength="2"
                 maxlength="200"
+                pattern="^[A-Za-zА-Яа-яЁё -]+$"
+                data-error-message="Разрешены только латинские, кириллические буквы, пробелы и дефисы"
               />
               <span class="popup__error user-description-error"></span>
             </label>
@@ -94,6 +98,8 @@
                 required
                 minlength="2"
                 maxlength="30"
+                pattern="^[A-Za-zА-Яа-яЁё -]+$"
+                data-error-message="Разрешены только латинские, кириллические буквы, пробелы и дефисы"
               />
               <span class="popup__error place-name-error"></span>
             </label>
